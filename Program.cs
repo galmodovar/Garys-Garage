@@ -31,6 +31,8 @@ namespace Garage
             modelS.Drive();
             mx410.Drive();
             ram1500.Drive();
+            ram1500.Turn("left");
+            fxs.Stop();
         }
     }
 }
