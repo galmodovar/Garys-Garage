@@ -10,5 +10,9 @@ namespace Garage
         {
             // method definition omitted
         }
+        public override void Drive()
+        {
+            Console.WriteLine($"The {MainColor} Zero drives.");
+        }
     }
 }
